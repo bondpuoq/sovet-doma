@@ -537,6 +537,12 @@ canvas,iframe,img,svg,video {
   max-height: 80px;
 }
 
+.illustration--micro {
+  max-height: 30px;
+  max-width: 30px;
+}
+
+
 .icon {
   height: 30px;
 }
@@ -733,6 +739,13 @@ canvas,iframe,img,svg,video {
   max-width: 100%;
 }
 
+.span-whole-video {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  min-height: 450px;
+}
+
 .span-6,.span-half {
   -ms-flex-preferred-size: 50%;
   flex-basis: 50%;
@@ -897,7 +910,11 @@ canvas,iframe,img,svg,video {
   margin-left: 91.66667%;
 }
 
-.default-links a,.default-links a:link,.default-links a:visited,.link,.link:link,.link:visited {
+.default-links a,
+.default-links a:link,
+.default-links a:visited,
+.link,.link:link,
+.link:visited {
   color: #294ace;
   text-decoration: none;
   -webkit-transition: color .2s ease-out;
