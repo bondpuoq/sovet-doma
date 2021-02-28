@@ -538,8 +538,8 @@ canvas,iframe,img,svg,video {
 }
 
 .illustration--micro {
-  max-height: 30px;
-  max-width: 30px;
+  max-height: 26px;
+  max-width: 26px;
 }
 
 
@@ -1133,6 +1133,12 @@ hr {
   border-top-width: 1px;
 }
 
+.border--top-blue {
+  border-top-color: #80a0d3;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
 .border--right {
   border-right-color: #abb2c9;
   border-right-style: solid;
@@ -1141,6 +1147,12 @@ hr {
 
 .border--bottom {
   border-bottom-color: #abb2c9;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.border--bottom-blue {
+  border-bottom-color: #80a0d3;
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
